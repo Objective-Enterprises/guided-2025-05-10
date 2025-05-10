@@ -2,6 +2,13 @@ import { FoodItem } from "../../types"
 import Image from 'next/image'
 import Link from "next/link"
 
+/*
+<Routes>
+  <Route path='/menu' element={<MenuPage />} />
+  <Route path='/menu/:id' element={<MenuDetailPage />} />
+</Routes>
+*/
+
 export default function MenuPage (props: {
   items: FoodItem[]
 }) {
